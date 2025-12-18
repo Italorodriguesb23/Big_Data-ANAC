@@ -1,21 +1,22 @@
 ✈️ Análise de Ocorrências Aeronáuticas – Big Data com Python, Spark e Pandas
-📌 Descrição
+
+📌 Descrição:
 
 Projeto de análise de dados sobre ocorrências aeronáuticas no Brasil utilizando dados públicos do Governo Federal. O trabalho envolve limpeza, tratamento e análise exploratória de dados com Python, Pandas, PySpark e SQL, além da criação de visualizações para identificar padrões temporais, regionais e classificatórios relacionados à segurança aérea.
 
-🎯 Objetivos do Projeto
+🎯 Objetivos do Projeto:
 
-Analisar dados reais de acidentes e incidentes aeronáuticos
+>Analisar dados reais de acidentes e incidentes aeronáuticos
 
-Identificar padrões por estado, região e período
+>Identificar padrões por estado, região e período
 
-Aplicar técnicas de limpeza e preparação de dados
+>Aplicar técnicas de limpeza e preparação de dados
 
-Utilizar SQL, Pandas e PySpark de forma integrada
+>Utilizar SQL, Pandas e PySpark de forma integrada
 
-Desenvolver visualizações para apoio à análise
+>Desenvolver visualizações para apoio à análise
 
-🗂 Dataset
+🗂 Dataset:
 
 Fonte: Portal Brasileiro de Dados Abertos – Governo Federal
 
@@ -25,77 +26,77 @@ Formato: CSV / JSON
 
 Link: https://dados.gov.br/dados/conjuntos-dados/ocorrencias-aeronauticas
 
-🛠️ Tecnologias Utilizadas
+🛠️ Tecnologias Utilizadas:
 
-Python
+>Python
 
-Pandas
+>Pandas
 
-NumPy
+>NumPy
 
-PySpark
+>PySpark
 
-SQL
+>SQL
 
-Matplotlib
+>Matplotlib
 
-Jupyter Notebook
+>Google Colab
 
-🔍 Etapas do Projeto
+🔍 Etapas do Projeto:
 
-Leitura e compreensão do dataset
+1.Leitura e compreensão do dataset
 
-Limpeza e tratamento dos dados
+2.Limpeza e tratamento dos dados
 
-remoção de colunas duplicadas e irrelevantes
+  >remoção de colunas duplicadas e irrelevantes
 
-tratamento de valores nulos e inconsistências
+  >tratamento de valores nulos e inconsistências
 
-correção de valores inválidos na coluna UF
+  >correção de valores inválidos na coluna UF
 
-Consultas SQL para filtragem e agregação
+3.Consultas SQL para filtragem e agregação
 
-Criação de variáveis derivadas (Região) com PySpark
+4.Criação de variáveis derivadas (Região) com PySpark
 
-Análise exploratória dos dados
+5.Análise exploratória dos dados
 
-Construção de gráficos e visualizações
+6.Construção de gráficos e visualizações
 
-Interpretação dos resultados e conclusões
+7.Interpretação dos resultados e conclusões
 
-📊 Principais Análises Realizadas
+📊 Principais Análises Realizadas:
 
-Ocorrências por estado e região
+>Ocorrências por estado e região
 
-Evolução temporal das ocorrências (2015–2020)
+>Evolução temporal das ocorrências (2015–2020)
 
-Ano com maior número de registros (2019)
+>Ano com maior número de registros (2019)
 
-Classificação das ocorrências (predominância de “Acidente”)
+>Classificação das ocorrências (predominância de “Acidente”)
 
-Análise específica da região Nordeste
+>Análise específica da região Nordeste:
 
-Ceará (7 ocorrências)
+   >Ceará (7 ocorrências)
 
-Bahia (6 ocorrências)
+   >Bahia (6 ocorrências)
 
-Pernambuco (4 ocorrências)
+   >Pernambuco (4 ocorrências)
 
-📌 Conclusões
+📌 Conclusões:
 
 Os resultados indicam concentração de ocorrências em regiões com maior tráfego aéreo, especialmente no estado de São Paulo e na região Sudeste. O ano de 2019 apresentou o maior número de registros, sugerindo um período crítico ou mudanças no processo de fiscalização e registro. A análise reforça a importância da qualidade dos dados para estudos relacionados à segurança operacional.
 
-📚 Aprendizados
+📚 Aprendizados:
 
-Importância da limpeza e preparação de dados reais
+>Importância da limpeza e preparação de dados reais
 
-Integração entre SQL, Pandas e Spark
+>Integração entre SQL, Pandas e Spark
 
-Criação e interpretação de visualizações analíticas
+>Criação e interpretação de visualizações analíticas
 
-Desenvolvimento de pensamento analítico e crítico
+>Desenvolvimento de pensamento analítico e crítico
 
-Experiência prática na condução completa de um projeto de dados
+>Experiência prática na condução completa de um projeto de dados
 
 👤 Autor
 
